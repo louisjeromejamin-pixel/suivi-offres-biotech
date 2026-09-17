@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suivi des offres</title>
+<style>
+  /* Sombre par défaut, façon GitHub : gris neutres froids, texte quasi blanc,
+     un seul bleu d'accent. Le clair reste disponible via le bouton Thème. */
+  :root{
+    --bg:#0d1117;
+    --surface:#151b23;
+    --surface-2:#1c2430;
+    --raised:#212a35;
+    --ink:#e6edf3;
+    --ink-2:#9198a1;
+    --ink-3:#656c76;
+    --line:#2f3742;
+    --line-2:#21262d;
+
+    --accent:#4493f8;
+    --accent-bg:#11213b;
+    --green:#3fb950;
+    --green-bg:#122117;
+    --amber:#d29922;
+    --amber-bg:#221a09;
+    --red:#f85149;
+    --red-bg:#25171a;
+    --purple:#ab7df8;
+    --purple-bg:#1d1730;
+
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+    --r:6px;
+  }
+  :root[data-theme="light"]{
+    --bg:#ffffff;
+    --surface:#ffffff;
+    --surface-2:#f6f8fa;
+    --raised:#eef1f4;
+    --ink:#1f2328;
+    --ink-2:#59636e;
+    --ink-3:#818b98;
+    --line:#d1d9e0;
+    --line-2:#e4e8ec;
+
+    --accent:#0969da;
+    --accent-bg:#ddf4ff;
+    --green:#1a7f37;
+    --green-bg:#dafbe1;
+    --amber:#9a6700;
+    --amber-bg:#fff8c5;
+    --red:#cf222e;
+    --red-bg:#ffebe9;
+    --purple:#8250df;
+    --purple-bg:#fbefff;
+  }
+
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:var(--sans); font-size:13px; line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  /* ---- barre supérieure ---- */
+  header{
+    background:var(--bg); border-bottom:1px solid var(--line);
+  }
+  .top{display:flex; align-items:center; gap:12px; flex-wrap:wrap; padding:10px 16px}
+  h1{font-size:14px; font-weight:600; margin:0; white-space:nowrap}
+  .spacer{flex:1}
+
+  /* Compteurs : cliquables, ils pilotent les filtres (rien d'inerte à l'écran). */
+  .stats{display:flex; gap:6px; flex-wrap:wrap}
+  .stat{
+    font-family:var(--mono); font-size:11px; color:var(--ink-2);
+    background:var(--surface-2); border:1px solid var(--line);
+    border-radius:20px; padding:2px 9px; cursor:pointer;
+    font-variant-numeric:tabular-nums;
+  }
+  .stat:hover{border-color:var(--ink-3); color:var(--ink)}
+  .stat b{color:var(--ink); font-weight:600}
+  .stat[aria-pressed="true"]{background:var(--accent-bg); border-color:var(--accent); color:var(--accent)}
+  .stat[aria-pressed="true"] b{color:var(--accent)}
+
+  input[type=search],select{
+    font-family:var(--sans); font-size:12px; color:var(--ink);
+    background:var(--surface); border:1px solid var(--line); border-radius:var(--r);
+    padding:5px 9px; min-width:0;
+  }
+  input[type=search]{min-width:230px}
+  input[type=search]:focus,select:focus{
+    outline:none; border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-bg);
+  }
+  button{
+    font-family:var(--sans); font-size:12px; font-weight:500; color:var(--ink);
+    background:var(--surface-2); border:1px solid var(--line); border-radius:var(--r);
+    padding:5px 11px; cursor:pointer;
+  }
+  button:hover{background:var(--raised)}
+  button.primary{background:var(--accent); color:#fff; border-color:transparent}
+  button.primary:hover{filter:brightness(1.1)}
+
+  /* ---- tableau ---- */
+  .wrap{overflow-x:auto; padding:0 16px 56px}
+  table{border-collapse:separate; border-spacing:0; width:100%; min-width:1240px; table-layout:fixed}
+  th{
+    position:sticky; top:env(safe-area-inset-top, 0px); z-index:10;
+    background:var(--surface-2); color:var(--ink-2);
+    font-size:11px; font-weight:600; text-align:left;
+    padding:7px 10px; white-space:nowrap; cursor:pointer; user-select:none;
+    box-shadow:inset 0 -1px 0 var(--line);
+  }
+  th:hover{color:var(--ink)}
+  th .ar{color:var(--accent)}
+  td{padding:8px 10px; border-bottom:1px solid var(--line-2); vertical-align:top}
+  tr:hover td{background:var(--surface)}
+  tr.closed td{opacity:.45}
+
+  .title{
+    font-size:13px; font-weight:500; line-height:1.4;
+    color:var(--accent); text-decoration:none; display:block;
+    overflow-wrap:break-word;
+  }
+  .title:hover{text-decoration:underline}
+  .sub{font-size:11px; color:var(--ink-2); margin-top:3px}
+  .num{font-family:var(--mono); font-size:11px; font-variant-numeric:tabular-nums; white-space:nowrap}
+
+  /* Entreprise : colonne à part entière, lisible d'un coup d'œil. */
+  .co{font-size:12px; font-weight:600; color:var(--ink); overflow-wrap:break-word}
+  .co-src{font-size:10px; color:var(--ink-3); font-family:var(--mono); margin-top:2px}
+
+  .tag{
+    display:inline-block; font-size:11px; font-weight:500;
+    padding:1px 7px; border-radius:20px; white-space:nowrap; border:1px solid;
+  }
+  .t-summer{background:var(--amber-bg); color:var(--amber); border-color:var(--amber)}
+  .t-off{background:var(--accent-bg); color:var(--accent); border-color:var(--accent)}
+  .t-grad{background:var(--green-bg); color:var(--green); border-color:var(--green)}
+  .t-phd{background:var(--purple-bg); color:var(--purple); border-color:var(--purple)}
+  .t-unk{background:transparent; color:var(--ink-3); border-color:var(--line)}
+  .t-new{background:var(--green-bg); color:var(--green); border-color:var(--green)}
+
+  .days{font-family:var(--mono); font-size:10.5px; margin-top:2px}
+  .d-soon{color:var(--red); font-weight:600}
+  .d-mid{color:var(--amber)}
+  .d-far{color:var(--ink-3)}
+  .d-past{color:var(--ink-3); text-decoration:line-through}
+  .conf{font-size:10px; color:var(--ink-3)}
+
+  td select{
+    font-size:11px; padding:3px 5px; width:100%;
+    background:var(--surface-2); border:1px solid var(--line); border-radius:var(--r);
+    color:var(--ink);
+  }
+  td select.set{border-color:var(--accent); color:var(--accent)}
+  td input[type=text]{
+    font-family:var(--sans); font-size:11px; width:100%;
+    background:transparent; border:1px solid transparent; border-radius:var(--r);
+    padding:3px 5px; color:var(--ink);
+  }
+  td input[type=text]:hover{border-color:var(--line)}
+  td input[type=text]:focus{
+    background:var(--surface); border-color:var(--accent); outline:none;
+  }
+  td input[type=text]::placeholder{color:var(--ink-3)}
+
+  .reqs{font-size:11.5px; color:var(--ink-2); line-height:1.4; margin:0; padding:0}
+  .reqs li{
+    margin:0 0 2px; list-style:none; position:relative; padding-left:10px;
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+  }
+  .reqs li::before{content:"·"; position:absolute; left:2px; color:var(--ink-3)}
+  details.more summary{
+    cursor:pointer; color:var(--ink-3); font-size:10.5px; margin-top:2px; list-style:none;
+  }
+  details.more summary::-webkit-details-marker{display:none}
+  details.more summary:hover{color:var(--accent)}
+  details.more[open] .reqs li{-webkit-line-clamp:5}
+  .proc{font-size:11.5px; color:var(--ink-2)}
+  .rounds{
+    display:inline-block; font-family:var(--mono); font-size:10px; font-weight:600;
+    color:var(--accent); background:var(--accent-bg); border:1px solid var(--accent);
+    border-radius:var(--r); padding:0 5px; margin-right:5px;
+  }
+  .none{color:var(--ink-3)}
+
+  .empty{padding:56px 16px; text-align:center; color:var(--ink-2)}
+  .empty code{
+    font-family:var(--mono); font-size:12px; background:var(--surface-2);
+    border:1px solid var(--line); border-radius:var(--r); padding:2px 6px; color:var(--accent);
+  }
+  footer{
+    position:fixed; bottom:0; left:0; right:0;
+    background:var(--bg); border-top:1px solid var(--line);
+    padding:6px 16px calc(6px + env(safe-area-inset-bottom, 0px));
+    font-size:11px; color:var(--ink-3); display:flex; gap:14px; align-items:center;
+  }
+  .saved{color:var(--green); opacity:0; transition:opacity .25s}
+  .saved.on{opacity:1}
+
+  @media (max-width:640px){
+    .top{padding:10px 12px} .wrap{padding:0 12px 56px} footer{padding-inline:12px}
+    input[type=search]{min-width:140px}
+  }
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="top">
+    <h1>Suivi des offres</h1>
+    <div class="stats" id="stats"></div>
+    <span class="spacer"></span>
+    <input type="search" id="q" placeholder="Rechercher…" autocomplete="off">
+    <select id="fSeason"><option value="">Saison</option></select>
+    <select id="fCompany"><option value="">Entreprise</option></select>
+    <select id="fStage"><option value="">Stade</option></select>
+    <button id="themeBtn" title="Clair / sombre">Thème</button>
+    <button id="exportBtn" title="Télécharger vos saisies">Exporter</button>
+    <button class="primary" id="importBtn" title="Charger un user.json">Importer</button>
+    <input type="file" id="importFile" accept="application/json" hidden>
+  </div>
+</header>
+
+<div class="wrap">
+  <table id="grid">
+    <thead><tr id="head"></tr></thead>
+    <tbody id="body"></tbody>
+  </table>
+  <div class="empty" id="empty" hidden><p>Aucune offre ne correspond à ces filtres.</p></div>
+</div>
+
+<footer>
+  <span id="gen"></span>
+  <span class="spacer"></span>
+  <span class="saved" id="saved">enregistré</span>
+  <span>Saisies conservées dans ce navigateur — « Exporter » pour les verser au dépôt.</span>
+</footer>
+
+<script>
+// Colonnes. Entreprise est une colonne à part : on la lit sans parcourir
+// l'intitulé. Largeurs fixes, car table-layout:fixed.
+const COLS = [
+  {key:"interest",    label:"Intérêt",    w:"96px"},
+  {key:"stage",       label:"Stade",      w:"118px"},
+  {key:"applied_on",  label:"Postulé le", w:"86px"},
+  {key:"company",     label:"Entreprise", w:"126px"},
+  {key:"title",       label:"Poste",      w:"250px"},
+  {key:"season",      label:"Saison",     w:"92px"},
+  {key:"first_seen",  label:"Détectée",   w:"88px"},
+  {key:"closes",      label:"End date",   w:"100px"},
+  {key:"requirements",label:"Prérequis",  w:"280px"},
+  {key:"process",     label:"Processus",  w:"150px"},
+  {key:"notes",       label:"Notes",      w:"140px"},
+];
+
+// On ne traduit que ce qui a un équivalent français courant. Off-cycle,
+// Summer, Graduate, start/end date sont le vocabulaire d'usage du secteur :
+// les franciser rendrait la grille moins lisible, pas plus.
+const T_STAGE = {
+  "Not applied":"Pas postulé", "Applied":"Postulé", "OA / Test":"Test en ligne",
+  "Phone screen":"Entretien tél.", "Interview 1":"Entretien 1",
+  "Interview 2":"Entretien 2", "Final / Superday":"Entretien final",
+  "Offer":"Offre", "Rejected":"Refusé", "Withdrawn":"Désisté",
+};
+const T_INTEREST = {
+  "":"—", "Maybe":"Peut-être", "Interested":"Intéressée",
+  "Top choice":"Priorité", "Not for me":"Non",
+};
+// Saisons : conservées en anglais, comme demandé.
+const T_SEASON = {"PhD / Thesis":"PhD", "Unknown":"—"};
+const T_CONTRACT = {"Internship":"Stage", "PhD":"Doctorat", "VIE":"VIE", "Graduate":"Graduate"};
+const T_CONF = {"stated":"annoncée", "high":"fiable", "medium":"moyenne", "low":"indicative"};
+
+let DATA = null, USER = {}, sortKey = "first_seen", sortDir = -1;
+const LS = "tracker-user-v1";
+let activeChips = new Set(["open"]);
+
+async function boot(){
+  try{
+    const r = await fetch("data.json", {cache:"no-store"});
+    DATA = await r.json();
+  }catch(e){
+    const el = document.getElementById("empty");
+    el.hidden = false;
+    el.innerHTML = "<p>Impossible de charger <code>data.json</code>.</p>" +
+      "<p>Ouvrez la grille avec <code>python -m tracker serve</code>.</p>";
+    return;
+  }
+  USER = Object.assign({}, DATA.user || {});
+  try{
+    const local = JSON.parse(localStorage.getItem(LS) || "{}");
+    for(const k in local) USER[k] = Object.assign({}, USER[k], local[k]);
+  }catch(e){}
+  buildFilters(); buildHead(); render();
+}
+
+function save(){
+  try{ localStorage.setItem(LS, JSON.stringify(USER)); }catch(e){}
+  const el = document.getElementById("saved");
+  el.classList.add("on"); setTimeout(()=>el.classList.remove("on"), 900);
+}
+
+const days = iso => iso ? Math.round((new Date(iso) - new Date())/864e5) : null;
+const esc = s => (s??"").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const isNew = j => j.first_seen && new Date(j.first_seen) >= new Date(Date.now() - 7*864e5);
+
+function seasonTag(s){
+  const cls = {"Summer":"t-summer","Off-cycle":"t-off","Graduate":"t-grad","PhD / Thesis":"t-phd"}[s] || "t-unk";
+  return `<span class="tag ${cls}">${esc(T_SEASON[s] || s)}</span>`;
+}
+
+function closesCell(j){
+  const iso = j.closes_at || j.closes_estimated;
+  if(!iso) return '<span class="none">—</span>';
+  const d = days(iso);
+  const cls = d===null ? "" : d<0 ? "d-past" : d<=7 ? "d-soon" : d<=21 ? "d-mid" : "d-far";
+  const conf = j.closes_at ? "annoncée" : (T_CONF[j.closes_confidence] || "estimée");
+  const rel = d===null ? "" : d<0 ? "dépassée" : d===0 ? "aujourd’hui" : `J−${d}`;
+  return `<div class="num">${esc(iso)}</div>
+          <div class="days ${cls}">${rel} <span class="conf">· ${esc(conf)}</span></div>`;
+}
+
+function reqCell(j){
+  const r = j.requirements || [];
+  if(!r.length) return '<span class="none">—</span>';
+  const first = `<ul class="reqs">${r.slice(0,2).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`;
+  const rest = r.slice(2);
+  if(!rest.length) return first;
+  return first + `<details class="more"><summary>+${rest.length} autres</summary>
+    <ul class="reqs" style="margin-top:3px">${rest.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></details>`;
+}
+
+function procCell(j){
+  if(!j.process && !j.process_rounds) return '<span class="none">—</span>';
+  const txt = (j.process || "")
+    .replace(/(\d+)\s+rounds?/i, (m,n)=> n + (n==="1" ? " tour" : " tours"))
+    .replace(/HR screen/gi, "Entretien RH")
+    .replace(/Technical \/ case/gi, "Test technique")
+    .replace(/Scientific presentation/gi, "Présentation scientifique")
+    .replace(/Final \/ on-site/gi, "Entretien final")
+    .replace(/Manager interview/gi, "Entretien manager")
+    .replace(/\(unspecified\)/gi, "(non détaillé)");
+  const n = j.process_rounds ? `<span class="rounds">${j.process_rounds}</span>` : "";
+  return `<div class="proc">${n}${esc(txt)}</div>`;
+}
+
+function ustate(uid){
+  if(!USER[uid]) USER[uid] = {uid, interest:"", stage:"Not applied", applied_on:"", notes:""};
+  return USER[uid];
+}
+
+function buildFilters(){
+  const v = DATA.vocab || {};
+  const opt = (val,label)=>`<option value="${esc(val)}">${esc(label)}</option>`;
+  const se = document.getElementById("fSeason");
+  (v.seasons||[]).forEach(s => se.insertAdjacentHTML("beforeend", opt(s, T_SEASON[s]||s)));
+  const st = document.getElementById("fStage");
+  (v.stages||[]).forEach(s => st.insertAdjacentHTML("beforeend", opt(s, T_STAGE[s]||s)));
+  const co = document.getElementById("fCompany");
+  [...new Set(DATA.jobs.map(j=>j.company))].sort((a,b)=>a.localeCompare(b,"fr"))
+    .forEach(c => co.insertAdjacentHTML("beforeend", opt(c,c)));
+  ["q","fSeason","fCompany","fStage"].forEach(id =>
+    document.getElementById(id).addEventListener("input", render));
+}
+
+function visible(){
+  const q = document.getElementById("q").value.toLowerCase().trim();
+  const fs = document.getElementById("fSeason").value;
+  const fc = document.getElementById("fCompany").value;
+  const fg = document.getElementById("fStage").value;
+
+  return DATA.jobs.filter(j => {
+    const u = ustate(j.uid);
+    if(activeChips.has("open") && j.status !== "open") return false;
+    if(activeChips.has("new") && !isNew(j)) return false;
+    if(activeChips.has("soon")){
+      const d = days(j.closes_at || j.closes_estimated);
+      if(d === null || d < 0 || d > 21) return false;
+    }
+    if(activeChips.has("applied") && u.stage === "Not applied") return false;
+    if(fs && j.season !== fs) return false;
+    if(fc && j.company !== fc) return false;
+    if(fg && u.stage !== fg) return false;
+    if(q){
+      const hay = [j.title, j.company, j.location, j.process,
+                   (j.requirements||[]).join(" "), u.notes].join(" ").toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function buildHead(){
+  document.getElementById("head").innerHTML = COLS.map(c =>
+    `<th data-sort="${c.key}" style="width:${c.w}">${c.label}<span class="ar"></span></th>`).join("");
+  document.querySelectorAll("[data-sort]").forEach(th => th.onclick = () => {
+    const k = th.dataset.sort;
+    if(sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = 1; }
+    render();
+  });
+}
+
+function sortVal(j,k){
+  const u = ustate(j.uid);
+  if(k === "closes") return j.closes_at || j.closes_estimated || "9999";
+  if(["interest","stage","applied_on","notes"].includes(k)) return (u[k]||"").toLowerCase();
+  if(k === "requirements") return (j.requirements||[]).length;
+  if(k === "process") return j.process_rounds || 0;
+  return (j[k] ?? "").toString().toLowerCase();
+}
+
+function render(){
+  const rows = visible().sort((a,b)=>{
+    const x = sortVal(a,sortKey), y = sortVal(b,sortKey);
+    return (x>y?1:x<y?-1:0)*sortDir;
+  });
+
+  document.querySelectorAll("th .ar").forEach(el => el.textContent = "");
+  const th = document.querySelector(`th[data-sort="${sortKey}"] .ar`);
+  if(th) th.textContent = sortDir > 0 ? " ↑" : " ↓";
+
+  document.getElementById("body").innerHTML = rows.map(j => {
+    const u = ustate(j.uid);
+    const stages = (DATA.vocab.stages||[]).map(s =>
+      `<option value="${esc(s)}"${s===u.stage?" selected":""}>${esc(T_STAGE[s]||s)}</option>`).join("");
+    const ints = (DATA.vocab.interest||[]).map(s =>
+      `<option value="${esc(s)}"${s===u.interest?" selected":""}>${esc(T_INTEREST[s]??s)}</option>`).join("");
+    const contract = j.contract ? (T_CONTRACT[j.contract] || j.contract) : "";
+    const sub = [contract, j.duration ? j.duration.replace(/months?/i,"mois") : ""]
+      .filter(Boolean).join(" · ");
+    return `<tr class="${j.status!=="open"?"closed":""}">
+      <td><select data-f="interest" data-uid="${j.uid}" class="${u.interest?"set":""}">${ints}</select></td>
+      <td><select data-f="stage" data-uid="${j.uid}" class="${u.stage!=="Not applied"?"set":""}">${stages}</select></td>
+      <td><input type="text" data-f="applied_on" data-uid="${j.uid}" value="${esc(u.applied_on)}" placeholder="AAAA-MM-JJ"></td>
+      <td><div class="co">${esc(j.company)}</div>${j.location?`<div class="co-src">${esc(j.location)}</div>`:""}</td>
+      <td>
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        ${sub?`<div class="sub">${esc(sub)}</div>`:""}
+      </td>
+      <td>${seasonTag(j.season)}</td>
+      <td><div class="num">${esc(j.first_seen||"")}</div>
+          ${isNew(j)?'<div style="margin-top:3px"><span class="tag t-new">new</span></div>':""}</td>
+      <td>${closesCell(j)}</td>
+      <td>${reqCell(j)}</td>
+      <td>${procCell(j)}</td>
+      <td><input type="text" data-f="notes" data-uid="${j.uid}" value="${esc(u.notes)}" placeholder="…"></td>
+    </tr>`;
+  }).join("");
+
+  document.getElementById("body").querySelectorAll("[data-f]").forEach(el => {
+    el.addEventListener("change", e => {
+      const {f, uid} = e.target.dataset;
+      const u = ustate(uid);
+      u[f] = e.target.value;
+      if(f === "stage" && e.target.value !== "Not applied" && !u.applied_on){
+        u.applied_on = new Date().toISOString().slice(0,10);
+      }
+      save(); render();
+    });
+  });
+
+  renderStats(rows.length);
+  document.getElementById("gen").textContent = "Données du " + (DATA.generated_at || "—");
+  document.getElementById("empty").hidden = rows.length > 0;
+}
+
+// Les compteurs SONT les filtres : un seul jeu de contrôles, chaque chiffre
+// affiché est actionnable.
+function renderStats(shown){
+  const all = DATA.jobs;
+  const n = {
+    open: all.filter(j=>j.status==="open").length,
+    new: all.filter(j=>isNew(j) && j.status==="open").length,
+    soon: all.filter(j=>{
+      const d = days(j.closes_at || j.closes_estimated);
+      return j.status==="open" && d!==null && d>=0 && d<=21;
+    }).length,
+    applied: Object.values(USER).filter(u=>u.stage && u.stage!=="Not applied").length,
+  };
+  const defs = [
+    ["open","ouvertes",n.open], ["new","nouvelles",n.new],
+    ["soon","clôture ≤21j",n.soon], ["applied","postulées",n.applied],
+  ];
+  document.getElementById("stats").innerHTML =
+    `<span class="stat" style="cursor:default"><b>${shown}</b> affichées</span>` +
+    defs.map(([k,l,v]) =>
+      `<button class="stat" data-chip="${k}" aria-pressed="${activeChips.has(k)}"><b>${v}</b> ${l}</button>`).join("");
+  document.querySelectorAll("[data-chip]").forEach(b => b.onclick = () => {
+    const k = b.dataset.chip;
+    activeChips.has(k) ? activeChips.delete(k) : activeChips.add(k);
+    render();
+  });
+}
+
+document.getElementById("exportBtn").onclick = () => {
+  const blob = new Blob([JSON.stringify(USER,null,2)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = "user.json"; a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 1000);
+};
+document.getElementById("importBtn").onclick = () => document.getElementById("importFile").click();
+document.getElementById("importFile").onchange = async e => {
+  const f = e.target.files[0]; if(!f) return;
+  try{
+    const incoming = JSON.parse(await f.text());
+    for(const k in incoming) USER[k] = Object.assign({}, USER[k], incoming[k]);
+    save(); render();
+  }catch(err){ alert("Ce fichier n’est pas un export de suivi valide."); }
+};
+
+document.getElementById("themeBtn").onclick = () => {
+  const light = document.documentElement.getAttribute("data-theme") === "light";
+  if(light) document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme","light");
+  try{ localStorage.setItem("tracker-theme", light ? "" : "light"); }catch(e){}
+};
+try{
+  if(localStorage.getItem("tracker-theme") === "light")
+    document.documentElement.setAttribute("data-theme","light");
+}catch(e){}
+
+boot();
+</script>
+</body>
+</html>
