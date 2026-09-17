@@ -90,7 +90,7 @@
     background:var(--surface); border:1px solid var(--line); border-radius:var(--r);
     padding:5px 9px; min-width:0;
   }
-  input[type=search]{min-width:230px}
+  input[type=search]{min-width:170px; flex:1 1 200px; max-width:320px}
   input[type=search]:focus,select:focus{
     outline:none; border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-bg);
   }
@@ -238,7 +238,7 @@
   <span id="gen"></span>
   <span class="spacer"></span>
   <span class="saved" id="saved">enregistré</span>
-  <span>Saisies conservées dans ce navigateur — « Exporter » pour les verser au dépôt.</span>
+  <span id="hint"></span>
 </footer>
 
 <script>
@@ -465,7 +465,13 @@ function render(){
   });
 
   renderStats(rows.length);
-  document.getElementById("gen").textContent = "Données du " + (DATA.generated_at || "—");
+  document.getElementById("gen").textContent = "Offres au " + (DATA.generated_at || "—");
+  // Le message d'aide dépend du contexte : en ligne, personne n'a de dépôt
+  // où « verser » quoi que ce soit.
+  const enLigne = location.hostname.endsWith("github.io");
+  document.getElementById("hint").textContent = enLigne
+    ? "Vos coches et notes restent privées, dans ce navigateur. « Exporter » pour en garder une copie."
+    : "Saisies conservées dans ce navigateur — « Exporter » pour les verser au dépôt.";
   document.getElementById("empty").hidden = rows.length > 0;
 }
 
