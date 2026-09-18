@@ -100,6 +100,32 @@
     },
     {
       "company": "Amgen",
+      "title": "Juriste stagiaire H/F",
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/France---Paris/Juriste-stagiaire-H-F_R-256390",
+      "location": "France - Paris",
+      "country": "France",
+      "first_seen": "2026-09-18",
+      "posted_at": "2026-09-18",
+      "closes_at": "",
+      "closes_estimated": "2026-11-02",
+      "closes_confidence": "high",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Vous êtes élève-avocat(e)/étudiant(e) en droit (Master 2 minimum) avec une spécialisation en droit des affaires et/ou en droit de la santé et/ou des produits de santé."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "amgen-12205ff16edd"
+    },
+    {
+      "company": "Amgen",
       "title": "Stagiaire chargé(e) d'affaires juridiques H/F",
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/France---Paris/Stagiaire-charg-e--d-affaires-juridiques-H-F_R-240834",
       "location": "France - Paris",
@@ -120,8 +146,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "amgen-2f366e3192f5"
     },
     {
@@ -1105,8 +1131,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "docplanner-6aa2fafc2447"
     },
     {
@@ -1138,8 +1164,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "docplanner-f934dd8886dc"
     },
     {
@@ -1572,8 +1598,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "eurofins-fff4d3f391a0"
     },
     {
@@ -3394,8 +3420,8 @@
       "languages": [],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "sanofi-0ff52f1b16c3"
     },
     {
@@ -3802,6 +3828,33 @@
       "status": "open",
       "closed_on": "",
       "uid": "sanofi-e1200e398318"
+    },
+    {
+      "company": "Sanofi",
+      "title": "Regulatory Affairs Trainee",
+      "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Porto-Salvo/Regulatory-Affairs-Trainee_R2871473",
+      "location": "Porto Salvo",
+      "country": "Portugal",
+      "first_seen": "2026-09-18",
+      "posted_at": "2026-09-18",
+      "closes_at": "2026-10-05",
+      "closes_estimated": "2026-10-05",
+      "closes_confidence": "stated",
+      "season": "Unknown",
+      "contract": "",
+      "duration": "12 months",
+      "requirements": [
+        "This is a great opportunity to gain hands-on experience in Regulatory Affairs, learn how medicines are brought to patients, and build skills that can support your future career in the pharmaceutical industry.",
+        "Working knowledge of Microsoft Office applications, including Word, Excel, and PowerPoint."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "Final / on-site",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "sanofi-ec3be418cc94"
     },
     {
       "company": "Sanofi",
