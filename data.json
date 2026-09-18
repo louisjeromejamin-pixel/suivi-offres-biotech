@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17",
+  "generated_at": "2026-09-18",
   "vocab": {
     "stages": [
       "Not applied",
@@ -839,8 +839,8 @@
       "languages": [],
       "process": "Final / on-site",
       "process_rounds": 1,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "bicycle-therapeutics-cb859fa25c9b"
     },
     {
@@ -976,7 +976,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-22",
+      "closes_estimated": "2026-10-23",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -1175,6 +1175,32 @@
     },
     {
       "company": "Eurofins",
+      "title": "Stage - Ingénieur R&D RMN (H/F) - Nantes (44)",
+      "url": "https://jobs.smartrecruiters.com/Eurofins/744000150326879",
+      "location": "Nantes, fr",
+      "country": "",
+      "first_seen": "2026-09-18",
+      "posted_at": "2026-09-18",
+      "closes_at": "",
+      "closes_estimated": "2026-10-28",
+      "closes_confidence": "high",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Réaliser des plans d’expérience pour tester et valider les changements de méthode, selon les référentiels qualité ;"
+      ],
+      "languages": [
+        "French"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "eurofins-36744a7b14f0"
+    },
+    {
+      "company": "Eurofins",
       "title": "Stage - Ingénieur.e Projets Data/BI",
       "url": "https://jobs.smartrecruiters.com/Eurofins/744000146980498",
       "location": "Paris, fr",
@@ -1227,6 +1253,33 @@
       "status": "open",
       "closed_on": "",
       "uid": "eurofins-5c7fc195bb98"
+    },
+    {
+      "company": "Eurofins",
+      "title": "Stage - Chef de projet R&D (H/F) - Nantes (44)",
+      "url": "https://jobs.smartrecruiters.com/Eurofins/744000150326498",
+      "location": "Nantes, fr",
+      "country": "",
+      "first_seen": "2026-09-18",
+      "posted_at": "2026-09-18",
+      "closes_at": "",
+      "closes_estimated": "2026-10-28",
+      "closes_confidence": "high",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Maitrise le Français et l’anglais"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "eurofins-670a47dfb3b8"
     },
     {
       "company": "Eurofins",
@@ -1283,6 +1336,32 @@
     {
       "company": "Eurofins",
       "title": "Stage - Ingénieur R&D Spectrométrie de masse (H/F) - Nantes (44)",
+      "url": "https://jobs.smartrecruiters.com/Eurofins/744000150326739",
+      "location": "Nantes, fr",
+      "country": "",
+      "first_seen": "2026-09-18",
+      "posted_at": "2026-09-18",
+      "closes_at": "",
+      "closes_estimated": "2026-10-28",
+      "closes_confidence": "high",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Réaliser des plans d’expérience pour tester et valider les changements de méthode ;"
+      ],
+      "languages": [
+        "French"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "eurofins-9fb9c2fcc234"
+    },
+    {
+      "company": "Eurofins",
+      "title": "Stage - Ingénieur R&D Spectrométrie de masse (H/F) - Nantes (44)",
       "url": "https://jobs.smartrecruiters.com/Eurofins/744000149254459",
       "location": "Nantes, fr",
       "country": "",
@@ -1302,8 +1381,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "eurofins-a99f1e309d50"
     },
     {
@@ -1413,8 +1492,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "eurofins-e0c0abd30ccc"
     },
     {
@@ -1440,8 +1519,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-18",
       "uid": "eurofins-e501c12448c5"
     },
     {
@@ -2072,6 +2151,40 @@
     },
     {
       "company": "GSK",
+      "title": "Internship : Application of Electrical Impedance Cytometry (EIC) for the Characterization of Pharmaceutical Nanoparticles, Belgium - 2026",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Belgium-Rixensart/Internship---Application-of-Electrical-Impedance-Cytometry--EIC--for-the-Characterization-of-Pharmaceutical-Nanoparticles--Belgium---2026_447980",
+      "location": "Belgium-Rixensart",
+      "country": "Belgium",
+      "first_seen": "2026-09-18",
+      "posted_at": "2026-09-18",
+      "closes_at": "",
+      "closes_estimated": "2026-11-02",
+      "closes_confidence": "high",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Other requirements:",
+        "Foundational knowledge of analytical techniques (e.g. spectroscopy, chromatography, particle size analysis, microscopy).",
+        "Strong interest in nanotechnology and nanoparticle-based drug delivery systems.",
+        "Good quantitative skills and ability to work with experimental data in Excel or similar tools.",
+        "Ability to work systematically, follow experimental protocols and maintain accurate records.",
+        "Expected start date: As soon as possible",
+        "Duration: 6 months minimum",
+        "Requisite : The internship must be mandatory & done in the framework of the curriculum, for which an agreement must be signed between GSK, the student and the Educational Establishment."
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-921540b6ec22"
+    },
+    {
+      "company": "GSK",
       "title": "Stage : Continuous Improvement, Belgique – 2026",
       "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Belgium-Wavre/Continuous-Improvement--Belgique---2026_445640",
       "location": "Belgium-Wavre",
@@ -2572,7 +2685,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2599,7 +2712,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2632,7 +2745,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2656,7 +2769,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2687,7 +2800,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2718,7 +2831,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2742,7 +2855,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2764,7 +2877,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2798,7 +2911,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-17",
+      "closes_estimated": "2026-10-18",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
