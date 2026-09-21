@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-09-21",
   "vocab": {
     "stages": [
       "Not applied",
@@ -1002,7 +1002,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-25",
+      "closes_estimated": "2026-10-26",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2711,7 +2711,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2738,7 +2738,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2771,7 +2771,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2795,7 +2795,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2826,7 +2826,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2857,7 +2857,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2881,7 +2881,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2903,7 +2903,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2937,7 +2937,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-20",
+      "closes_estimated": "2026-10-21",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -3260,8 +3260,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-21",
       "uid": "roche-b1a81b65514e"
     },
     {
@@ -3629,6 +3629,32 @@
     },
     {
       "company": "Sanofi",
+      "title": "stage 6 mois biochimie IA",
+      "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Vitry-sur-Seine/stage-6-mois-biochimie-IA_R2871369",
+      "location": "Vitry-sur-Seine",
+      "country": "France",
+      "first_seen": "2026-09-21",
+      "posted_at": "2026-09-21",
+      "closes_at": "2026-12-21",
+      "closes_estimated": "2026-12-21",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Éducation : bac +5 en chimie ou chimie analytique"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "sanofi-7d0935c1b313"
+    },
+    {
+      "company": "Sanofi",
       "title": "Quality Internship",
       "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Milano/Quality-Internship_R2869562",
       "location": "Milano",
@@ -3651,8 +3677,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-21",
       "uid": "sanofi-813834479ab6"
     },
     {
@@ -3682,6 +3708,33 @@
       "status": "open",
       "closed_on": "",
       "uid": "sanofi-92599be5f5a1"
+    },
+    {
+      "company": "Sanofi",
+      "title": "stage 6 mois développement test in vitro immuno oncologie",
+      "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Vitry-sur-Seine/Stage-de-6-mois-Dveloppement-de-tests-in-vitro-pour-l-valuation-de-nouvelles-approches-d-Immunothrapies-en-Oncologie_R2871223",
+      "location": "Vitry-sur-Seine",
+      "country": "France",
+      "first_seen": "2026-09-21",
+      "posted_at": "2026-09-21",
+      "closes_at": "2026-11-21",
+      "closes_estimated": "2026-11-21",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Compétences techniques et relationnelles : rigueur, organisation, esprit d’équipe. Connaissances dans l’isolation et la culture de cellules immunitaires, culture et entretien de lignées cellulaires, expérience en cytométrie en flux multiparamétrique et techniques d’immunodosages",
+        "Éducation : bac+5 en immunologie, en cancérologie ou en Biologie"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "sanofi-993101404476"
     },
     {
       "company": "Sanofi",
@@ -4030,8 +4083,8 @@
       "languages": [],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-21",
       "uid": "viatris-7b36ce6d238e"
     },
     {
