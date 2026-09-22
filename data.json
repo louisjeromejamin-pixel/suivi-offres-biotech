@@ -94,8 +94,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-22",
       "uid": "almirall-ee06eb2de9ae"
     },
     {
@@ -149,6 +149,37 @@
       "status": "closed",
       "closed_on": "2026-09-18",
       "uid": "amgen-2f366e3192f5"
+    },
+    {
+      "company": "Amgen",
+      "title": "Fuel ETRP Rotational Graduate Program 2027",
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Ireland---Dublin/Fuel-ETRP-Rotational-Graduate-Program-2027_R-255799",
+      "location": "Ireland - Dublin",
+      "country": "Ireland",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-05",
+      "closes_estimated": "2026-10-05",
+      "closes_confidence": "stated",
+      "season": "PhD / Thesis",
+      "contract": "PhD",
+      "duration": "",
+      "requirements": [
+        "Bachelor’s Degree in Science, Engineering or other relevant disciplines obtained from an accredited college or university by the time program kicks-off in July 2027",
+        "Preferred Qualifications:",
+        "Proven leadership skills, demonstrated through extra-curricular or work experience activities",
+        "Previous Amgen or relevant industry experience in biopharma, manufacturing, or engineering environment",
+        "Minimum GPA of 3.20 preferred",
+        "Strong technical and analytical skills",
+        "Ability to work effectively and collaboratively across teams and levels of management",
+        "Excellent time and project management skills"
+      ],
+      "languages": [],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "amgen-a878d1a983b8"
     },
     {
       "company": "AstraZeneca",
@@ -1914,6 +1945,39 @@
     },
     {
       "company": "GSK",
+      "title": "Communications (Multiple Roles and Locations) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Communications--Multiple-Roles-and-Locations--Industrial-Placement--2027_445774",
+      "location": "UK – London – New Oxford Street",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Expected Start date : June 2027",
+        "Duration : 1 year (approximately)",
+        "Salary : A salary of £28,900 (London) or £26,400 (other locations) plus a bonus.",
+        "Workplace Arrangements: Please read the workplace arrangements for each role carefully before applying.",
+        "Application Closing : Roles are expected to close on 13/10/2026 , however, candidates will be reviewed regularly, and the advert may close at any point. Please ensure you review and complete the application stages below.",
+        "Are you looking to gain valuable real world work experience and help positively impact the lives of others?",
+        "What do we offer you?",
+        "A competitive salary, with an annual bonus based on company performance."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "Final / on-site",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-1b5d83113079"
+    },
+    {
+      "company": "GSK",
       "title": "Internship: Bacterial Target Identification, IT, 2026",
       "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Italy---Siena/Internship--Bacterial-Target-Identification--IT--2026_447296",
       "location": "Italy - Siena",
@@ -2008,6 +2072,138 @@
     },
     {
       "company": "GSK",
+      "title": "Quality Assurance & Quality Control (Multiple Roles and Locations) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK---West-Sussex---Worthing/Quality-Assurance---Quality-Control--Multiple-Roles-and-Locations--Industrial-Placement--2027_445805",
+      "location": "UK - West Sussex - Worthing",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity: Before applying, you'll need to obtain an application code by completing a short activity in Connectr, our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a bachelor’s degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : July 2027",
+        "Duration : 1 year (approximately)",
+        "Salary : A salary of £28,900 (London) or £26,400 (all other locations) plus a bonus."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "Final / on-site",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-3decee24f26e"
+    },
+    {
+      "company": "GSK",
+      "title": "Environmental Health, Safety and Sustainability (Multiple Roles and Locations) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Environmental-Health--Safety-and-Sustainability--Multiple-Roles-and-Locations--Industrial-Placement--2027_445779",
+      "location": "UK – London – New Oxford Street",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Pre-application activity: Before applying, you'll need to obtain an application code by completing a short activity in Connectr, our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "If you have already graduated with a bachelor’s degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement: Written and spoken fluency in English",
+        "Expected Start date : July 2027",
+        "Duration : 1 year (approximately)",
+        "Salary : A salary of £ 2 6 ,400 plus a bonus."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "Final / on-site",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-3dfba7e8672f"
+    },
+    {
+      "company": "GSK",
+      "title": "Microbiology Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Microbiology-Industrial-Placement--2027_445791",
+      "location": "UK – London – New Oxford Street",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Please read the degree requirements for each role carefully before applying.",
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity: Before applying, you'll need to obtain an application code by completing a short activity in Connectr , our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a bachelor’s degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : July 2027",
+        "Duration : 1 year (approximately)"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "HR screen → Final / on-site",
+      "process_rounds": 2,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-3ed22fc91d5e"
+    },
+    {
+      "company": "GSK",
+      "title": "Pharmaceutical Business and Supply Chain (Multiple Roles and Locations) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Pharmaceutical-Business-and-Supply-Chain--Multiple-Roles-and-Locations--Industrial-Placement--2027_445800",
+      "location": "UK – London – New Oxford Street",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Please read the degree requirements for each role carefully before applying.",
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity: Before applying, you'll need to obtain an application code by completing a short activity in Connectr, our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a bachelor’s degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : July 2027",
+        "Duration : 1 year (approximately)"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "Final / on-site",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-506f8e33d08a"
+    },
+    {
+      "company": "GSK",
       "title": "Stage : Supply Chain Management, Belgique – 2026",
       "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Belgium-Wavre/Stage---Supply-Chain-Management--Belgique---2026_438830",
       "location": "Belgium-Wavre",
@@ -2072,6 +2268,39 @@
       "status": "open",
       "closed_on": "",
       "uid": "gsk-609732c504d7"
+    },
+    {
+      "company": "GSK",
+      "title": "Global Clinical Operations (Multiple Roles and Locations) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK---Hertfordshire---Stevenage/Global-Clinical-Operations--Multiple-Roles-and-Locations--Industrial-Placement--2027_445780",
+      "location": "UK - Hertfordshire - Stevenage",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity: Before applying, you'll need to obtain an application code by completing a short activity in Connectr, our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a Bachelor’s Degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : GSK HQ – June 202 7 / Stevenage - September 2027",
+        "Duration : 1 year (approximately)",
+        "Salary : A salary of £2 6400 plus a bonus."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-6176ae019f05"
     },
     {
       "company": "GSK",
@@ -2143,6 +2372,39 @@
     },
     {
       "company": "GSK",
+      "title": "Programming, Statistics & Data Science (Multiple Roles) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Programming--Statistics---Data-Science--Multiple-Roles--Industrial-Placement--2027_446656",
+      "location": "UK – London – New Oxford Street",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Please read the degree requirements for each role carefully before applying.",
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity : Before applying, you'll need to obtain an application code by completing a short activity in Connectr, our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a Bachelor’s Degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : September 2027",
+        "Duration : 1 year (approximately)"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-68db10d92c38"
+    },
+    {
+      "company": "GSK",
       "title": "Regulatory Affairs Trainee",
       "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Lisbon/Regulatory-Affairs-Trainee_447547",
       "location": "Lisbon",
@@ -2202,6 +2464,39 @@
       "status": "open",
       "closed_on": "",
       "uid": "gsk-764ce483f079"
+    },
+    {
+      "company": "GSK",
+      "title": "Global Patient Safety and Pharmacovigilance Industrial Placement, UK 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Global-Patient-Safety-and-Pharmacovigilance-Industrial-Placement--UK-2027_446653",
+      "location": "UK – London – New Oxford Street",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Expected Start date : July 2027",
+        "Duration : 1 year (approximately)",
+        "Salary : A salary of £28,900 plus a bonus.",
+        "Workplace Arrangements : Flexible working via performance with choice (office & home working may be available)",
+        "Application Closing : Roles are expected to close on 13/10/2026 , however, candidates will be reviewed regularly, and the advert may close at any point. Please ensure you review and complete the application stages below.",
+        "Are you looking to gain valuable real world work experience and help positively impact the lives of others?",
+        "What do we offer you?",
+        "A competitive salary, with an annual bonus based on company performance."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-88d9af9f6481"
     },
     {
       "company": "GSK",
@@ -2367,6 +2662,72 @@
     },
     {
       "company": "GSK",
+      "title": "Data Generation and Scientific Communication (Multiple Roles) Industrial Placement, UK 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Data-Generation-and-Scientific-Communication--Multiple-Roles--Industrial-Placement--UK-2027_447045",
+      "location": "UK – London – New Oxford Street",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "",
+      "closes_estimated": "2026-11-06",
+      "closes_confidence": "high",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity : Before applying, you'll need to obtain an application code by completing a short activity in Connectr, our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a Bachelor’s Degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : September 2027",
+        "Duration : 1 year (approximately)",
+        "Salary : A salary of £28,900 plus a bonus."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-99a26147305b"
+    },
+    {
+      "company": "GSK",
+      "title": "Pharmaceutical Science (Multiple Roles and Locations) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK--London--New-Oxford-Street/Pharmaceutical-Science--Multiple-Roles-and-Locations--Industrial-Placement--2027_445803",
+      "location": "UK – London – New Oxford Street",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity: Before applying, you'll need to obtain an application code by completing a short activity in Connectr, our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a bachelor’s degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : July 2027",
+        "Duration : 1 year (approximately)",
+        "Salary : A salary of £26,400 plus a bonus."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "Final / on-site",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-9a5d5105cc5e"
+    },
+    {
+      "company": "GSK",
       "title": "Stage : Project Management, QC Business Operations Performance & Strategy, Belgique - 2026",
       "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Belgium-Wavre/Stage---Project-Management--QC-Business-Operations-Performance---Strategy--Belgique---2026_447475",
       "location": "Belgium-Wavre",
@@ -2394,6 +2755,72 @@
       "status": "open",
       "closed_on": "",
       "uid": "gsk-9b17c437bbce"
+    },
+    {
+      "company": "GSK",
+      "title": "Chemistry (Multiple Roles) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK---Hertfordshire---Stevenage/Chemistry--Multiple-Roles--Industrial-Placement--2027_445770",
+      "location": "UK - Hertfordshire - Stevenage",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Please read the degree requirements for each role carefully before applying.",
+        "Other requirements : You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI ( Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity: Before applying, you'll need to obtain an application code by completing a short activity in Connectr, our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a bachelor’s degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : September 2027",
+        "Duration : 1 year (approximately)"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "Final / on-site",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-a16c3f809b35"
+    },
+    {
+      "company": "GSK",
+      "title": "Business Management Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK---County-Durham---Barnard-Castle/Business-Management-Industrial-Placement--2027_445777",
+      "location": "UK - County Durham - Barnard Castle",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Summer",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Expected Start date : July 2027",
+        "Duration : 1 year (approximately)",
+        "Salary : A salary of £26,400 plus a bonus.",
+        "Workplace Arrangements: Full time on site required",
+        "Application Closing : Roles are expected to close on 13/10/2026 , however, candidates will be reviewed regularly, and the advert may close at any point. Please ensure you review and complete the application stages below.",
+        "Are you looking to gain valuable real world work experience and help positively impact the lives of others?",
+        "What do we offer you?",
+        "A competitive salary, with an annual bonus based on company performance."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "Final / on-site",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-a31dd3175652"
     },
     {
       "company": "GSK",
@@ -2568,7 +2995,7 @@
       "location": "UK - Hertfordshire - Stevenage",
       "country": "United Kingdom",
       "first_seen": "2026-09-18",
-      "posted_at": "2026-09-16",
+      "posted_at": "2026-09-22",
       "closes_at": "2026-10-06",
       "closes_estimated": "2026-10-06",
       "closes_confidence": "stated",
@@ -2661,6 +3088,66 @@
       "status": "open",
       "closed_on": "",
       "uid": "gsk-e199ef69b842"
+    },
+    {
+      "company": "GSK",
+      "title": "Biological & Biomedical Sciences (Multiple Roles) Industrial Placement, 2027",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/UK---Hertfordshire---Stevenage/Biological---Biomedical-Sciences--Multiple-Roles--Industrial-Placement--2027_445711",
+      "location": "UK - Hertfordshire - Stevenage",
+      "country": "United Kingdom",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-13",
+      "closes_estimated": "2026-10-13",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Please read the degree requirements for each role carefully before applying.",
+        "Other requirements: You will have completed a minimum of 2 years of your undergraduate degree but will not have graduated at the start of your placement. You must be enrolled at a UK (United Kingdom) or ROI (Republic of Ireland) University for the duration of your placement.",
+        "Pre-application activity: Before applying, you'll need to obtain an application code by completing a short activity in Connectr , our candidate engagement platform.",
+        "This activity is designed to encourage considered applications. Once completed, you'll receive your unique application code required to proceed with your application.",
+        "If you have already graduated with a Bachelor’s Degree and are currently studying a postgraduate Masters, you are not eligible for this programme.",
+        "Language requirement : Written and spoken fluency in English",
+        "Expected Start date : September 2026",
+        "Duration : 1 year (approximately)"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "HR screen → Final / on-site",
+      "process_rounds": 2,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-e8e1d54889dd"
+    },
+    {
+      "company": "GSK",
+      "title": "Internship: Analytical Development Intern, Italy, 2026",
+      "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Italy---Siena/Internship--Analytical-Development-Intern--Italy--2026_448091",
+      "location": "Italy - Siena",
+      "country": "Italy",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-09-29",
+      "closes_estimated": "2026-09-29",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Uniting science, technology and talent to get ahead of disease together.",
+        "Should you require any specific adjustments to our process to assist you in demonstrating your strengths and capabilities contact us on ita-inclusion.recruitment@gsk.com .",
+        "Please note should your enquiry not relate to adjustments, we will not be able to support you through these channels.",
+        "Important notice to Employment businesses/ Agencies"
+      ],
+      "languages": [],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "gsk-f0395956c0ca"
     },
     {
       "company": "GSK",
@@ -3323,6 +3810,40 @@
     },
     {
       "company": "Roche",
+      "title": "Roche internship in Medicinal Chemistry - RiCH",
+      "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Basel/Roche-internship-in-Medicinal-Chemistry---RiCH_202609-124069",
+      "location": "Basel",
+      "country": "Switzerland",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-22",
+      "closes_estimated": "2026-10-22",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "12 months",
+      "requirements": [
+        "A high-performing chemistry student expecting to obtain a 1st class degree who may perform PhD research after their successful undergraduate studies.",
+        "We seek a talent with the ambition to make an impact in healthcare and who thoroughly embraces the challenge of working in a team with a common goal.",
+        "Successful applicants should relish the stimulation of working in an international environment.",
+        "Day-to-day scientific communication is in English, with an active interest in German or French a bonus.",
+        "Additional information",
+        "You are currently enrolled in a Bachelor or Master degree program at a university or graduated within the last 12 months prior to the start date.",
+        "This is a full-time medicinal chemistry internship with a duration of 6 to 12 months."
+      ],
+      "languages": [
+        "English",
+        "French",
+        "German"
+      ],
+      "process": "Scientific presentation",
+      "process_rounds": 1,
+      "status": "open",
+      "closed_on": "",
+      "uid": "roche-bc8763db3550"
+    },
+    {
+      "company": "Roche",
       "title": "Praktikum MSAT Process Science Technology (m/w/d)",
       "url": "https://roche.wd3.myworkdayjobs.com/roche-ext/job/Penzberg/Praktikum-MSAT-Process-Science-Technology--m-w-d-_202608-120238-1",
       "location": "Penzberg",
@@ -3547,6 +4068,34 @@
       "status": "open",
       "closed_on": "",
       "uid": "sanofi-1c04d77df583"
+    },
+    {
+      "company": "Sanofi",
+      "title": "Medical Affairs Internship",
+      "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Milano/Medical-Affairs-Internship_R2872039",
+      "location": "Milano",
+      "country": "Italy",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-11-02",
+      "closes_estimated": "2026-11-02",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Master’s degree in Medicine, Pharmacy, Biotecnology or related fields",
+        "Fluent English (level B2+/C1 or higher)",
+        "Good knowledge of Excel and PowerPoint"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "sanofi-27279c7edc40"
     },
     {
       "company": "Sanofi",
@@ -3949,14 +4498,17 @@
       "location": "Gentilly",
       "country": "France",
       "first_seen": "2026-09-21",
-      "posted_at": "2026-09-21",
+      "posted_at": "2026-09-22",
       "closes_at": "2026-12-24",
       "closes_estimated": "2026-12-24",
       "closes_confidence": "stated",
       "season": "Off-cycle",
       "contract": "Internship",
       "duration": "6 months",
-      "requirements": [],
+      "requirements": [
+        "Compétences techniques et relationnelles : curiosité, esprit de synthèse, créativité. Connaissance des outils d’IA générative, maîtrise du pack office et notions de logiciels de montage vidéo",
+        "Éducation : bac+4/5 en commerce, pharmacie ou santé publique"
+      ],
       "languages": [
         "English"
       ],
@@ -4174,6 +4726,35 @@
     },
     {
       "company": "Viatris",
+      "title": "Engineering Graduate",
+      "url": "https://viatris.wd5.myworkdayjobs.com/External/job/Inverin-County-Galway-Ireland/Engineering-Graduate_R5674044",
+      "location": "Inverin, County Galway, Ireland",
+      "country": "Ireland",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "",
+      "closes_estimated": "2026-11-06",
+      "closes_confidence": "high",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "",
+      "requirements": [
+        "Launching in September 2026, the Viatris Graduate Development Programme is designed to equip high-performing graduates with the skills, knowledge, and experience to thrive in a dynamic global healthcare environment.",
+        "Expand your technical abilities and key business skills in a progressive, innovative environment.",
+        "In-depth knowledge of Viatris business and operations.",
+        "Practical experience working with cutting-edge pharmaceutical technology.",
+        "Recent graduates or upcoming graduates with an Honours degree in STEM (Science, Technology, Engineering, Math), 3rd level qualification. A grade of 2.1 or higher is a requirement for the programme.",
+        "Demonstrated success in previous work experience, placement, or extracurricular activities."
+      ],
+      "languages": [],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "viatris-4eaa481d8371"
+    },
+    {
+      "company": "Viatris",
       "title": "Graduate - Supply Chain",
       "url": "https://viatris.wd5.myworkdayjobs.com/External/job/Northern-Cross-Dublin-Ireland/Graduate---Supply-Chain_R5671595",
       "location": "Northern Cross, Dublin, Ireland",
@@ -4307,8 +4888,8 @@
       ],
       "process": "",
       "process_rounds": null,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-22",
       "uid": "viatris-f76c09ac6092"
     }
   ]
