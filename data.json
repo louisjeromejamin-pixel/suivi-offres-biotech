@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21",
+  "generated_at": "2026-09-22",
   "vocab": {
     "stages": [
       "Not applied",
@@ -1002,7 +1002,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-26",
+      "closes_estimated": "2026-10-27",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -1498,6 +1498,32 @@
     },
     {
       "company": "Eurofins",
+      "title": "6-month paid internship - AI & Automation",
+      "url": "https://jobs.smartrecruiters.com/Eurofins/744000150986035",
+      "location": "Barcelona, es",
+      "country": "",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "",
+      "closes_estimated": "2026-11-01",
+      "closes_confidence": "high",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Education : Master's degree in Computer Science, Data Science, AI, Software Engineering, Automation, or any related fields."
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
+      "status": "open",
+      "closed_on": "",
+      "uid": "eurofins-c7af2625c359"
+    },
+    {
+      "company": "Eurofins",
       "title": "Stage - Ingénieur R&D RMN (H/F) - Nantes (44)",
       "url": "https://jobs.smartrecruiters.com/Eurofins/744000149253799",
       "location": "Nantes, fr",
@@ -1852,8 +1878,8 @@
       ],
       "process": "Final / on-site",
       "process_rounds": 1,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-22",
       "uid": "gsk-13c47a87987d"
     },
     {
@@ -1915,8 +1941,8 @@
       ],
       "process": "Final / on-site",
       "process_rounds": 1,
-      "status": "open",
-      "closed_on": "",
+      "status": "closed",
+      "closed_on": "2026-09-22",
       "uid": "gsk-20462fa0b340"
     },
     {
@@ -2742,7 +2768,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2769,7 +2795,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2802,7 +2828,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2826,7 +2852,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2857,7 +2883,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2888,7 +2914,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2912,7 +2938,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -2934,7 +2960,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "Off-cycle",
       "contract": "Internship",
@@ -2968,7 +2994,7 @@
       "first_seen": "2026-09-18",
       "posted_at": "",
       "closes_at": "",
-      "closes_estimated": "2026-10-21",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "low",
       "season": "PhD / Thesis",
       "contract": "PhD",
@@ -3782,15 +3808,15 @@
       "location": "Vitry-sur-Seine",
       "country": "France",
       "first_seen": "2026-09-21",
-      "posted_at": "2026-09-21",
-      "closes_at": "2026-11-21",
-      "closes_estimated": "2026-11-21",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-10-22",
+      "closes_estimated": "2026-10-22",
       "closes_confidence": "stated",
       "season": "Off-cycle",
       "contract": "Internship",
       "duration": "6 months",
       "requirements": [
-        "Compétences techniques et relationnelles : rigueur, organisation, esprit d’équipe. Connaissances dans l’isolation et la culture de cellules immunitaires, culture et entretien de lignées cellulaires, expérience en cytométrie en flux multiparamétrique et techniques d’immunodosages",
+        "Compétences techniques et relationnelles : rigueur, curiosité, esprit d’équipe. Connaissances dans l’isolation et la culture de cellules immunitaires, culture et entretien de lignées cellulaires, expérience en cytométrie en flux multiparamétrique et techniques d’immunodosages",
         "Éducation : bac+5 en immunologie, en cancérologie ou en Biologie"
       ],
       "languages": [
@@ -3885,9 +3911,36 @@
       ],
       "process": "",
       "process_rounds": null,
+      "status": "closed",
+      "closed_on": "2026-09-22",
+      "uid": "sanofi-afbfb402a5ea"
+    },
+    {
+      "company": "Sanofi",
+      "title": "stage 6 mois supply chain et optimisation de processus",
+      "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Marcy-lEtoile/stage-6-mois-supply-chain-et-optimisation-de-processus_R2871977",
+      "location": "Marcy-l'Etoile",
+      "country": "France",
+      "first_seen": "2026-09-22",
+      "posted_at": "2026-09-22",
+      "closes_at": "2026-12-22",
+      "closes_estimated": "2026-12-22",
+      "closes_confidence": "stated",
+      "season": "Off-cycle",
+      "contract": "Internship",
+      "duration": "6 months",
+      "requirements": [
+        "Compétences techniques et relationnelles : rigueur, esprit analytique, autonomie. Connaissances de la supply chain, en analyse de données et en modélisation de processus. Maitrise du pack Office",
+        "Éducation : bac +5 en génie industriel, biotechnologies ou supply chain"
+      ],
+      "languages": [
+        "English"
+      ],
+      "process": "",
+      "process_rounds": null,
       "status": "open",
       "closed_on": "",
-      "uid": "sanofi-afbfb402a5ea"
+      "uid": "sanofi-c76a27e892a5"
     },
     {
       "company": "Sanofi",
